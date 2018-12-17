@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|clip_vertical"
+        android:padding="10.0dip"
+        android:text="어디에 있나요"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/search_ImageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="40dp"
+        android:tint="#ffffff"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/ic_search_black_24dp" />
+    <ImageView
+        android:id="@+id/sort_ImageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:tint="#ffffff"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/ic_sort_black_24dp" />
+</FrameLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#f3f3f3"
+    android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/dataCenter_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <ImageView
+                android:id="@+id/shelter_image_ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.005"
+                android:background="#F0F0F0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.1">
+
+                <TextView
+                    android:id="@+id/shelter_name_TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.85"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="이름"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/round_layout3">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/heart" />
+
+                    <TextView
+                        android:id="@+id/shelter_like_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center_vertical"
+                        android:text="999!" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.07"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05"
+                    android:gravity="center_vertical|start"
+                    android:src="@drawable/placeholder"
+                    android:tint="#a8a8a8" />
+
+                <youthshelter.youth.co.kr.components.FontFitTextView
+                    android:id="@+id/shelter_location_TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.75"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="주소"
+                    android:textColor="#a8a8a8" />
+
+                <youthshelter.youth.co.kr.components.FontFitTextView
+                    android:id="@+id/shelter_distance_TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center_vertical"
+                    android:text="10KM"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shelter_playTime_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.07"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="영업시간"
+                android:textColor="#a8a8a8"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

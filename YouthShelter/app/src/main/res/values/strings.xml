@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">청춘쉼터</string>
+    <string name="firstFragment">청년공간</string>
+    <string name="secondFragment">문화공간</string>
+</resources>

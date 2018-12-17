@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/culture_tab"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginBottom="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>

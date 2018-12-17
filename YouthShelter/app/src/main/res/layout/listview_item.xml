@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/textView1_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2_address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="2dp"
+        android:maxLines="1"
+        android:textColor="#a2a2a2"
+        android:textSize="12sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="도로명"
+            android:background="@drawable/round_layout3"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textView3_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#a2a2a2"
+            android:textSize="12sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

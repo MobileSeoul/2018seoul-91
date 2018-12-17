@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "534572120623",
+    "firebase_url": "https://youthcenter-856cc.firebaseio.com",
+    "project_id": "youthcenter-856cc",
+    "storage_bucket": "youthcenter-856cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534572120623:android:7998a604d37ca0b0",
+        "android_client_info": {
+          "package_name": "youthshelter.youth.co.kr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534572120623-6249k9sqv9arpr4kin5eh71uhaoqeskf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "youthshelter.youth.co.kr",
+            "certificate_hash": "7fee4607b8eb5fbb2dc28bc3fb00a9cbfb145774"
+          }
+        },
+        {
+          "client_id": "534572120623-fu13t483o33u5v33jr0fjioq5pavn1k7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB13gC_rBVYCAss3COVb117xos_CY-_vqE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534572120623-fu13t483o33u5v33jr0fjioq5pavn1k7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
